@@ -16,19 +16,10 @@ body{
   align-items: center;
   font-size: max(10px, 1vw);
 }
-.label2 {
-  cursor: pointer;
-  background-color: rgb(255, 255, 255); 
-  padding: 10px; 
-  border: 1px solid lightgrey;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: max(10px, 1vw);
-}
+
 
 .description-container {
-  padding-top: 2%;
+  /* padding-top: 2%; */
   
 }
 
@@ -40,9 +31,23 @@ body{
   border: 1px solid lightgrey;
 }
 
-#shenja{
+#shenja {
+  position: relative;
   font-size: max(13px, 1.4vw);
 }
+
+#shenja:before {
+  content: "\2B06"; /* Unicode value for the down arrow symbol */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+}
+
+#shenja.up:before {
+  content: "\2B07"; /* Unicode value for the up arrow symbol */
+}
+
 p{
   font-size: max(9px, 1vw);
 }
