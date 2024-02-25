@@ -1,0 +1,48 @@
+body{
+  padding: 2% 2% 2% 2%;
+}
+.container {
+  
+  background-color: rgb(255, 255, 255);
+}
+
+.label1 {
+  cursor: pointer;
+  background-color: rgb(255, 255, 255); 
+  padding: 10px; 
+  border: 1px solid lightgrey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: max(10px, 1vw);
+}
+.label2 {
+  cursor: pointer;
+  background-color: rgb(255, 255, 255); 
+  padding: 10px; 
+  border: 1px solid lightgrey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: max(10px, 1vw);
+}
+
+.description-container {
+  padding-top: 2%;
+  
+}
+
+.description {
+  
+  padding-top: 10px;
+  background-color: white; 
+  padding: 10px; 
+  border: 1px solid lightgrey;
+}
+
+#shenja{
+  font-size: 20px;
+}
+p{
+  font-size: max(9px, 1vw);
+}
