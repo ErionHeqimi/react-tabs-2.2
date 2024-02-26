@@ -38,7 +38,7 @@ body{
 }
 
 #shenja:before {
-  content: "\2B06"; /* Unicode value for the down arrow symbol */
+  content: "\2B07"; 
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -46,7 +46,7 @@ body{
 }
 
 #shenja.up:before {
-  content: "\2B07"; /* Unicode value for the up arrow symbol */
+  content: "\2B06"; 
 }
 
 p{

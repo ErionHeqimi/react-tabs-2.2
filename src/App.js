@@ -8,7 +8,7 @@ const LabelWithDescription = () => {
   const toggleDescription = () => {
     setIsDescriptionVisible(!isDescriptionVisible);
     setIsThemeClicked(!isThemeClicked);
-    // Toggle the up/down arrow class
+    
     const shenja = document.getElementById('shenja');
     shenja.classList.toggle('up');
   };
